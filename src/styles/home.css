@@ -1,0 +1,58 @@
+*{font-family: 'Ranchers', cursive;
+
+
+}
+
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+#favoritesBtn {
+  background: hsla(46, 100%, 36%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(46, 100%, 36%, 1) 0%,
+    hsla(45, 62%, 52%, 1) 10%,
+    hsla(0, 0%, 100%, 1) 45%,
+    hsla(0, 0%, 100%, 1) 55%,
+    hsla(45, 62%, 52%, 1) 89%,
+    hsla(46, 100%, 36%, 1) 100%
+  );
+   background: -moz-linear-gradient(
+    90deg,
+    hsla(46, 100%, 36%, 1) 0%,
+    hsla(45, 62%, 52%, 1) 10%,
+    hsla(0, 0%, 100%, 1) 45%,
+    hsla(0, 0%, 100%, 1) 55%,
+    hsla(45, 62%, 52%, 1) 89%,
+    hsla(46, 100%, 36%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(46, 100%, 36%, 1) 0%,
+    hsla(45, 62%, 52%, 1) 10%,
+    hsla(0, 0%, 100%, 1) 45%,
+    hsla(0, 0%, 100%, 1) 55%,
+    hsla(45, 62%, 52%, 1) 89%,
+    hsla(46, 100%, 36%, 1) 100%
+  ); 
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B68B00", endColorstr="#D1AA39", GradientType=1 );
+}
+
+.bgimage {
+  background: url("https://i.postimg.cc/Njykm4S3/cropped-1360-768-245.jpg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-attachment: fixed;
+}
+
+.description {
+  height: 25%;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+}
